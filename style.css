@@ -1,0 +1,70 @@
+/*Smooth scrolling effect*/
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #1f2235;
+    font-family: "Baloo Tamma 2", cursive;
+}
+
+/*Font for main heading*/
+.m-heading{
+    font-family: "Roboto Slab", serif; 
+}
+
+.navivation-link{
+    border: 2px solid transparent;
+}
+.navigation-link:hover{
+    text-decoration: none;
+    border-bottom: 2px solid #f5ba09;
+    transition: 0.15s ease;
+}
+
+.main-container{
+    min-height: 80vh;
+}
+
+
+.main-row h1{
+    font-size: 5rem;
+}
+.main-row{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+#about{
+    background: #313552;
+    border-radius: 0.5rem;
+}
+
+#contact{
+    background: #313552;
+}
+
+.media_link{
+    padding: 1rem;
+    max-width: 15rem;
+    margin-left: 1rem;
+    border: 2px solid #f5ba09;
+    border-radius: 0.5rem;
+}
+
+.card {
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+        border-bottom: 8px solid orange;
+}
+
+.card-img-top{
+    height: 10vw;
+}
+
+.about_photo{
+    border:6px solid orange;
+    border-radius: 0.5rem;
+}
