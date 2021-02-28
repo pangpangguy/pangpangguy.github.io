@@ -29,7 +29,7 @@ body{
 
 
 .navbar.scrolled{
-    background: black;
+    background: #003049;
     transition: background 400ms;
     opacity:90%;
 }
@@ -98,4 +98,10 @@ font-weight: 500;
 
 #contact a:hover, div#emailBtn:hover{
     background-color:#e07a5f;
+}
+
+#skills{
+    background-color: #313552;
+    border-radius: 0.5rem;
+  
 }
