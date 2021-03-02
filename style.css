@@ -2,7 +2,11 @@
 html{
     scroll-behavior: smooth;
 }
-
+img#ryan{
+    width: 100%;
+    height:auto;
+    filter: grayscale(50%)
+}
 body{
     background: #1f2235;
     font-family: "Baloo Tamma 2", cursive;
@@ -79,6 +83,8 @@ body{
 .about_photo{
     border:6px solid #f2cc8f;
     border-radius: 0.5rem;
+    width:85%;
+    height:auto;
 }
 
 .progress-bar{
