@@ -55,53 +55,64 @@
         </div>
     </nav>
 
-
-    <div class="container main-container">
+    <!--Main Section-->
+    <div class="container main-container d-flex align-items-center">
         <div class="row main-row">
             <div class="col-12 col-md-6">
                 <h2 class="text-white">Hey there, I am</h2>
                 <h1 class="text-warning m-heading">Ryan<span class="text-white">,</span></h1>
                 <h2 class="text-white">an aspiring Software Developer</h2>
             </div>
-            <div class="d-none col-md-6 d-lg-block">
-                <img src="img/developer2.svg" alt="">
+            <div class="d-none col-md-6 d-md-block d-xl-none">
+                <img src="img/developer2.svg" class="img-fluid">
+            </div>
+            <div class="d-none col-md-6 d-xl-block">
+                <img src="img/developer2.svg">
             </div>
         </div>
     </div>
 
 
+
     <!--About Me-->
-    <div id="about" class="container">
+
+    <!-- About Section -->
+    <div id="about" class="container about p-5">
         <div class="row">
-            <div class="col-5 pt-5 pl-5">
-                <div class="about_photo">
-                    <img src="img/ryan.jpg" alt="" class="img-fluid rounded" id="ryan">
-                </div>
+            <div class="col-lg-6 col-md-1 pt-lg-5">
+                <img src="img/ryan.jpg" class="img-fluid rounded about-photo" id="ryan" />
             </div>
-            <div class="col-7 pt-5 p1-5 pb-5 text-white">
-                <h1 class="text-warning">About Me</h1>
-                <h2 class="m-heading">So who am I?</h2>
-                <p class="text-justify">My name is Ryan Tee, aka Pangpangguy. I am currently a 2nd-year student (Bac+4
+            <div class="col-lg-6 col-md-12 pl-md-5 pt-5 pb-md-5 text-white">
+                <h3 class="text-warning">About Me</h3>
+                <h1 class="m-heading">So who am I?</h1>
+                <p>
+                    My name is Ryan Tee, aka Pangpangguy. I am currently a 2nd-year student (Bac+4
                     on the french system) studying Computer
                     Science
                     at Grenoble INP - Ensimag, specialising in Systems and Software Engineering.
                 </p>
-                <p class="text-justify">
+                <br />
+                <p>
                     I love to build stuffs! Whether it's software, web or mobile application, I strive to always apply
                     the best
                     engineering practices in my work and build meaningful products that provide performant experiences.
                     Well-organised and independent person with high attention to detail, I am looking forward to work on
-                    interesting and ambitious projects with positive people
+                    interesting and ambitious projects with positive people!
                 </p>
+                <a class="resume-btn rounded py-2 px-3 m-2 my-0" href="CV/CV English .pdf" target="_blank">
+                    CV (English)
+                </a>
+                <a class="resume-btn rounded py-2 px-3 " href="CV/CV French.pdf" target="_blank">
+                    CV (French)
+                </a>
             </div>
         </div>
     </div>
-
     <!--My Projects-->
     <div class="container mt-3 py-5 " id="projects">
         <h1 class="text-warning mb-3 pb-2">My Projects</h1>
-        <div class="row align-items-center">
-            <div class="col-4">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
                 <div class=" card" style="width: 18rem;">
                     <img src="https://www.develop4fun.fr/wp-content/uploads/2019/01/5903d81e484b2.jpg"
                         class="card-img-top" alt="..." style="height: 13rem;" />
@@ -116,7 +127,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-md-6 col-lg-4">
                 <div class="card" style="width: 18rem;">
                     <img src="https://images.unsplash.com/photo-1546776310-eef45dd6d63c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=739&q=80"
                         class="card-img-top" alt="..." style="height: 13rem;" />
@@ -130,7 +141,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-md-6 col-lg-4">
                 <div class="card" style="width: 18rem;">
                     <img src="https://images.unsplash.com/photo-1574883578510-aa1bbbb7472c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
                         class="card-img-top" alt="..." style="height: 13rem;" />
@@ -142,7 +153,30 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/quotes.jpg" class="card-img-top" alt="..." style="height: 13rem;" />
+                    <div class="card-body">
+                        <h5 class="card-title">Quotes Generator</h5>
+                        <p class="card-text">A quotes generator. Read quotes from some inspiring figures, and share them
+                            on twitter!</p>
+                        <a href="https://pangpangguy.github.io/quotes-generator/" class="btn btn-warning">Check it
+                            out</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/hand2.png" class="card-img-top" alt="..." style="height: 13rem;" />
+                    <div class="card-body">
+                        <h5 class="card-title">Candilicious</h5>
+                        <p class="card-text">A simple, static & responsive website, designed using Bootstrap CSS. </p>
+                        <a href="https://pangpangguy.github.io/candilicious/" class="btn btn-warning">Check it
+                            out</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
                 <div class="card" style="width: 18rem;">
                     <img src="https://image.freepik.com/free-vector/laughing-mouth_102902-624.jpg" class="card-img-top"
                         alt="..." style="height: 13rem;" />
@@ -155,25 +189,16 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="img/hand2.png" class="card-img-top" alt="..." style="height: 13rem;" />
-                    <div class="card-body">
-                        <h5 class="card-title">Candilicious</h5>
-                        <p class="card-text">A simple, static & responsive website, designed using Bootstrap CSS. </p>
-                        <a href="https://pangpangguy.github.io/candilicious/" class="btn btn-warning">Check it
-                            out</a>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
-
+    <div>
+        <h1 id="skill-name">qsddsq</h1>
+    </div>
     <!--Skills-->
     <div id="skills" class="container py-4 mb-5">
         <h1 class="text-warning">Skills</h1>
         <div class="row text-white">
-            <h3 class="col-2 text-center pt-0">Java</h3>
+            <h3 class="col-2 text-center pt-0 skill-name">Java</h3>
             <div class="col-10 pt-1">
                 <div class="progress" style="height: 20px; width: 100%">
                     <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="25"
@@ -182,7 +207,7 @@
             </div>
         </div>
         <div class="row text-white">
-            <h3 class="col-2 text-center pt-0">HTML/CSS</h3>
+            <h3 class="col-2 text-center pt-0 skill-name">HTML/CSS</h3>
             <div class="col-10 pt-1">
                 <div class="progress" style="height: 20px; width: 100%">
                     <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="25"
@@ -191,7 +216,7 @@
             </div>
         </div>
         <div class="row text-white">
-            <h3 class="col-2 text-center pt-0">Rust</h3>
+            <h3 class="col-2 text-center pt-0 skill-name">Rust</h3>
             <div class="col-10 pt-1">
                 <div class="progress" style="height: 20px; width: 100%">
                     <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="25"
@@ -200,7 +225,7 @@
             </div>
         </div>
         <div class="row text-white">
-            <h3 class="col-2 text-center pt-0">Python</h3>
+            <h3 class="col-2 text-center pt-0 skill-name">Python</h3>
             <div class="col-10 pt-1">
                 <div class="progress" style="height: 20px; width: 100%">
                     <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="25"
@@ -209,7 +234,7 @@
             </div>
         </div>
         <div class="row text-white">
-            <h3 class="col-2 text-center pt-0">JavaScript</h3>
+            <h3 class="col-2 text-center pt-0 skill-name">JavaScript</h3>
             <div class="col-10 pt-1">
                 <div class="progress" style="height: 20px; width: 100%">
                     <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="25"
@@ -218,7 +243,7 @@
             </div>
         </div>
         <div class="row text-white">
-            <h3 class="col-2 text-center pt-0">C</h3>
+            <h3 class="col-2 text-center pt-0 skill-name">C</h3>
             <div class="col-10 pt-1">
                 <div class="progress" style="height: 20px; width: 100%">
                     <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="25"
@@ -227,7 +252,7 @@
             </div>
         </div>
         <div class="row text-white">
-            <h3 class="col-2 text-center pt-0">SQL</h3>
+            <h3 class="col-2 text-center pt-0 skill-name">SQL</h3>
             <div class="col-10 pt-1">
                 <div class="progress" style="height: 20px; width: 100%">
                     <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="25"
@@ -237,7 +262,7 @@
         </div>
 
         <div class="row text-white">
-            <h3 class="col-2 text-center pt-0">Linux</h3>
+            <h3 class="col-2 text-center pt-0 skill-name">Linux</h3>
             <div class="col-10 pt-1">
                 <div class="progress" style="height: 20px; width: 100%">
                     <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="25"
@@ -254,17 +279,17 @@
             <h1 class="text-warning">Contact</h1>
             <h3>Feel free to contact me!</h3>
             <div class="row pt-5">
-                <a class="col-3 media_link btn" href="https://www.linkedin.com/in/liingpang">
+                <a class="col-12 col-md-3 media_link btn" href="https://www.linkedin.com/in/liingpang">
                     <div class="row">
                         <div class="col-6 d-flex justify-content-start">
                             <h3 class="pt-2 m-0 text-white">LinkedIn</h3>
                         </div>
                         <div class="col-6 d-flex justify-content-end align-items-center">
-                            <i class="fab fa-linkedin-in fa-2x text-secondary"></i>
+                            <i class="fab fa-linkedin-in fa-2x text-secondary d-sm-none d-md-block"></i>
                         </div>
                     </div>
                 </a>
-                <a class="col-3 media_link btn" href="https://github.com/pangpangguy">
+                <a class="col-12 col-md-3 media_link btn" href="https://github.com/pangpangguy">
                     <div class="row">
                         <div class="col-6 d-flex justify-content-start">
                             <h3 class="pt-2 m-0 text-white">GitHub</h3>
@@ -274,7 +299,7 @@
                         </div>
                     </div>
                 </a>
-                <div class="col-3 media_link btn" id="emailBtn">
+                <div class="col-12 col-md-3 media_link btn" id="emailBtn">
                     <div class="row">
                         <div class="col-6 d-flex justify-content-start">
                             <h3 class="pt-2 m-0 text-white">Email</h3>
@@ -284,7 +309,7 @@
                         </div>
                     </div>
                 </div>
-                <a class="col-3 media_link btn" href="https://gitlab.ensimag.fr/teel">
+                <a class="col-12 col-md-3 media_link btn" href="https://gitlab.ensimag.fr/teel">
                     <div class="row">
                         <div class="col-6 d-flex justify-content-start">
                             <h3 class="pt-2 m-0 text-white">Gitlab</h3>
