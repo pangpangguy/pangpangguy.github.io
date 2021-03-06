@@ -56,6 +56,14 @@ body{
     background: #313552;
     border-radius: 0.5rem;
 }
+.ensimag-btn{
+    color:#e2a645;
+    font-weight:450;
+}
+.ensimag-btn:hover{
+    color:#c87f08;
+    text-decoration: none;
+}
 /*Resume button*/
 .resume-btn{
     color:whitesmoke;
