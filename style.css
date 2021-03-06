@@ -109,11 +109,16 @@ body{
     background-color:#fca311;
 }
 
-.progress-bar:hover{
+.skill-bar:hover .progress-bar{
     background-color: #e07a5f;
     transition: 50ms;
-font-weight: 500;
+    font-weight: 500;
     font-size: 1rem;
+}
+
+.skill-bar:hover .skill-name{
+    color: #df5d39;
+    transition: 1s;
 }
 
 .about2{
